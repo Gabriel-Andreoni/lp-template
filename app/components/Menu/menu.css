@@ -5,6 +5,15 @@
     background-color: red;
 
     overflow-y: scroll;
+
+    & > img {
+        width: 64px;
+        height: 64px;
+
+        margin: 1em;
+
+        cursor: pointer;
+    }
     
     .menu--nav {
         width: 100%;
