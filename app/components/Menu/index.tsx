@@ -28,7 +28,7 @@ export function Menu() {
             )}
 
             {isOpen ? (
-                <nav className={`menu--nav ${isOpen ? 'menu--nav-open' : ''}`}>
+                <nav className={`menu--nav ${isOpen ? 'menu--nav-open' : 'menu--nav-close'}`}>
                     <ul className="menu--list">
                         <li className="menu--item">Home</li>
                         <li className="menu--item">Sobre Nós</li>
