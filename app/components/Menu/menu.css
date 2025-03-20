@@ -1,0 +1,56 @@
+.menu--container {
+    width: 70%;
+    height: 100%;
+
+    background-color: red;
+
+    overflow-y: scroll;
+    
+    .menu--nav {
+        width: 100%;
+        height: 100%;
+
+        .menu--list {
+            width: 100%;
+            height: auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2em;
+
+            .menu--item {
+                width: 100%;
+                height: 200px;
+
+                padding: 2em;
+
+                font-size: 1.2em;
+
+                background-color: blue;
+
+                cursor: pointer;
+
+                transition: all 300ms ease;
+
+                &:hover {
+                    color: transparent;
+                }
+
+                &:hover:nth-child(1) {
+                    background-image: url('./img/home.png');
+                    background-size: cover;
+                    background-position-x: 20%;
+                    background-position-y: 20%;
+                }
+
+                &:hover:nth-child(2) {
+                    background-image: url('./img/about.png');
+                    background-size: cover;
+                    background-position-x: 20%;
+                    background-position-y: 20%;
+                }
+            }
+        }
+    }
+}

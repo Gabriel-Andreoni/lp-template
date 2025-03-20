@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Atop';
+    src: url('/fonts/Atop.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+.hero--container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+
+    background-image: url('./img/hero-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+
+    position: relative;
+}
+
+.hero--body {
+    width: 40%;
+    height: 100%;
+
+    padding: 4em;
+
+    background-color: #ffffff20;
+    
+    backdrop-filter: blur(15px);
+
+    .hero--title {
+        font-size: 4em;
+        color: #fff;
+
+        & > span {
+            color: #EDDE45;
+        }
+    }
+
+    .hero--subtitle {
+        margin-top: 1.5em;
+
+        font-size: 1.2em;
+        line-height: 1.5em;
+        font-weight: normal;
+
+        color: #fff;
+    }
+
+    .hero--buttonCTA {
+        width: 50%;
+
+        margin-top: 1.5em;
+        padding: 1.5em;
+
+        border-radius: .5em;
+        border: 1px solid #EDDE45;
+
+        background-color: #EDDE4580;
+
+        font-size: 1em;
+        font-family: inherit;
+
+        transition: all 500ms ease;
+
+        cursor: pointer;
+
+        &:hover {
+            background-color: transparent;
+
+            color: #fff;
+        }
+    }
+}
+
+.hero--image {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    & > img {
+        width: 500px;
+        height: 500px;
+    }
+}
