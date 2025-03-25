@@ -1,7 +1,5 @@
-import Image from 'next/image';
 import { Menu } from '@/app/components/Menu';
 import { Atop } from '@/app/components/AtopFont';
-import heroImage from './img/hero-image.png'
 import './hero.css';
 
 

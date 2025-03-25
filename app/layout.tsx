@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
-import {Tajawal, Barlow_Semi_Condensed} from 'next/font/google';
+import {Barlow_Semi_Condensed} from 'next/font/google';
 import "./globals.css";
-
-const tajawal = Tajawal({
-  weight:"500",
-  subsets: ['latin']
-});
 
 const barlow = Barlow_Semi_Condensed({
   weight:"500",
