@@ -30,6 +30,11 @@
         width: 100%;
         height: auto;
 
+        visibility: hidden;
+        backdrop-filter: blur(10px);
+
+        animation: slide-left 300ms forwards;
+
         .menu--list {
             width: 100%;
             height: auto;
@@ -77,11 +82,7 @@
     .menu--nav-open {
         animation: slide-right 300ms forwards;
 
-        backdrop-filter: blur(10px);
-    }
-
-    .menu--nav-close {
-        animation: slide-left 300ms forwards;
+        visibility: visible;
     }
 }
 
