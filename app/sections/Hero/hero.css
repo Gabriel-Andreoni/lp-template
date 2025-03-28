@@ -35,7 +35,7 @@
         color: #fff;
 
         & > span {
-            color: #EDDE45;
+            color: #EA9D2B;
         }
     }
 
@@ -56,9 +56,9 @@
         padding: 1.5em;
 
         border-radius: .5em;
-        border: 1px solid #EDDE45;
+        border: 1px solid #EA9D2B;
 
-        background-color: #EDDE4580;
+        background-color: #EA9D2B80;
 
         font-size: 1em;
         font-family: inherit;
@@ -67,10 +67,11 @@
 
         cursor: pointer;
 
+        color: #fff;
+
         &:hover {
             background-color: transparent;
 
-            color: #fff;
         }
     }
 }
