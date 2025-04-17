@@ -8,17 +8,9 @@ import CloseIcon from './img/close.png';
 
 
 export function Menu() {
-    const [isOpen, setIsOpen] = useState<boolean>(false);
-
     return (
-        <header className={`menu--container`}>
-            <Image
-                src={isOpen ? CloseIcon : MenuIcon}
-                alt={isOpen ? 'ícone de fechar o menu' : 'ícone de abrir o menu'}
-                onClick={() => setIsOpen(prevState => !prevState)}
-            />
-
-            <nav className={`menu--nav ${isOpen ? 'menu--nav-open' : ''}`}>
+        <header className="menu--container">
+            <nav className="menu--nav">
                 <ul className="menu--list">
                     <li className="menu--item">Home</li>
                     <li className="menu--item">Sobre Nós</li>

@@ -14,4 +14,6 @@
 
 body {
   background-color: #E8DBC9;
+  
+  user-select: none;
 }

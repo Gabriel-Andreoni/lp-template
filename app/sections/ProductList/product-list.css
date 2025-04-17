@@ -1,6 +1,8 @@
 .products-list--container {
     width: 100%;
     min-height: auto;
+
+    padding: 0 6em;
 }
 
 .products--title {
@@ -15,13 +17,16 @@
 
     text-wrap: balance;
 
-    color: #2B569C;
+    color: #a52a2a;
+
+    & > span {
+        color: #EA9D2B;
+    }
 }
 
 .products-list--grid {
     width: 100%;
 
-    padding: 4em;
     padding-top: 0em;
 
     display: flex;
@@ -45,37 +50,12 @@
 
     z-index: 1000;
 
-    &::after,
-    &::before {
-        content: '';
+    transition: all 300ms ease-in-out;
 
-        width: 100%;
-        height: 100%;
-        
-        border-radius: .5em;
+    &:hover {
+        translate: 0 -3%;
 
-        position: absolute;
-        inset: 0;
-
-        transition: 300ms ease-in-out;
-
-        z-index: -1;
-    }
-
-    &::before {
-        background-color: #BE3934;
-    }
-
-    &::after {
-        background-color: #EA9D2B;
-    }
-
-    &:hover::after {
-        rotate: 10deg;
-    }
-
-    &:hover::before {
-        rotate: -10deg;
+        box-shadow: #c2b7a860 0px 50px 100px -20px, #c2b7a860 0px 30px 60px -30px;
     }
 
     &>.product--item--image {

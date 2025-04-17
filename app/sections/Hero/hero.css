@@ -1,90 +1,94 @@
-@font-face {
-    font-family: 'Atop';
-    src: url('/fonts/Atop.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-
 .hero--container {
     width: 100%;
     height: 100vh;
 
-    display: flex;
-
-    background-image: url('./img/hero-background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-
-    position: relative;
-}
-
-.hero--body {
-    width: 45%;
-    height: 100%;
-
-    padding: 4em;
-
-    background-color: #ffffff20;
-    
-    backdrop-filter: blur(15px);
-
-    .hero--title {
-        font-size: 4em;
-        color: #fff;
-
-        & > span {
-            color: #EA9D2B;
-        }
-    }
-
-    .hero--subtitle {
-        margin-top: 1.5em;
-
-        font-size: 1.2em;
-        line-height: 1.5em;
-        font-weight: normal;
-
-        color: #fff;
-    }
-
-    .hero--buttonCTA {
-        width: 50%;
-
-        margin-top: 1.5em;
-        padding: 1.5em;
-
-        border-radius: .5em;
-        border: 1px solid #EA9D2B;
-
-        background-color: #EA9D2B80;
-
-        font-size: 1em;
-        font-family: inherit;
-
-        transition: all 500ms ease;
-
-        cursor: pointer;
-
-        color: #fff;
-
-        &:hover {
-            background-color: transparent;
-
-        }
-    }
-}
-
-.hero--image {
-    width: 50%;
-    height: 100%;
+    padding: 0 4em 4em 4em;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 
-    & > img {
-        width: 500px;
-        height: 500px;
+    .hero--content {
+        width: 100%;
+        height: calc(100% - 15%);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-image: url('./img/hero-background.jpg');
+        background-size: cover;
+        background-position: center;
+
+        border-radius: 4em;
+
+        position: relative;
+
+        &::before {
+            content: '';
+
+            width: 100%;
+            height: 100%;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            border-radius: 4em;
+            
+            background-color: rgba(0, 0, 0, 0.3);
+        
+            z-index: 1;
+            
+        }
+
+        .hero--content--title {
+            width: 100%;
+
+            font-size: 6em;
+            text-align: center;
+
+            color: #fff;
+
+            z-index: 100;
+
+            & > span {
+                color: #EA9D2B;
+            }
+
+        }
+
+        .hero--content--text {
+            width: 70%;
+
+            font-size: 1.2em;
+            text-align: center;
+            text-wrap: balance;
+            line-height: 1.5em;
+
+            color: #fff;
+
+            z-index: 100;
+        }
+
+        .hero--content--button {
+            width: 30%;
+            
+            margin-top: 2em;
+            padding: 2em;
+
+            border: none;
+            border-radius: .8em;
+
+            background-color: #EA9D2B;
+            color: #fff;
+            
+            cursor: pointer;
+
+            font-family: inherit;
+            font-size: 1.1em;
+
+            z-index: 100;
+        }
     }
 }
