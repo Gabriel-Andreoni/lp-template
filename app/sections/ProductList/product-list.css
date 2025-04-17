@@ -31,13 +31,13 @@
 
     display: flex;
     justify-content: center;
-    gap: 4em;
+    gap: 2em;
 
     position: relative;
 }
 
 .product--item {
-    width: 33%;
+    width: 25%;
     height: 100%;
 
     list-style: none;
