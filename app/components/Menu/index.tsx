@@ -1,11 +1,4 @@
-'use client';
-
-import { useState } from "react";
 import './menu.css'
-import Image from "next/image";
-import MenuIcon from './img/menu.png';
-import CloseIcon from './img/close.png';
-
 
 export function Menu() {
     return (
