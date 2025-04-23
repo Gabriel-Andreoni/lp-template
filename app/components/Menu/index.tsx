@@ -7,7 +7,7 @@ export function Menu() {
                 <ul className="menu--list">
                     <li className="menu--item">Home</li>
                     <li className="menu--item">Sobre Nós</li>
-                    <li className="menu--item">Playground</li>
+                    <li className="menu--item">Playgrounds</li>
                     <li className="menu--item">Faça um Orçamento</li>
                     <li className="menu--item">Contato</li>
                 </ul>
