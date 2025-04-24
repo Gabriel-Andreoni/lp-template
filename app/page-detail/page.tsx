@@ -5,11 +5,13 @@ import MoreImages1 from './images/more-images-1.jpg';
 import MoreImages2 from './images/more-images-2.jpg';
 import MoreImages3 from './images/more-images-3.jpg';
 import MoreImages4 from './images/more-images-4.jpg';
+import { Menu } from '../components/Menu';
 
 
 export default function PageDetail() {
     return (
         <section className="page-detail--wrapper">
+            <Menu />
             <div className="page-detail--container">
                 <div className="page-detail--image">
                     <aside className="more-images">
@@ -19,7 +21,7 @@ export default function PageDetail() {
                         <Image src={MoreImages4} alt="" width={200} height={200} /> 
                     </aside>
                     <div className="main--image">
-                        <Image src={MainImage} alt="" width={700}height={500} />
+                        <Image src={MainImage} alt="" width={900}height={500} />
                     </div>
 
                 </div>
