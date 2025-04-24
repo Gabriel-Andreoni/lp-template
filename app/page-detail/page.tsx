@@ -14,14 +14,15 @@ export default function PageDetail() {
             <Menu />
             <div className="page-detail--container">
                 <div className="page-detail--image">
-                    <aside className="more-images">
-                        <Image src={MoreImages1} alt="" width={200} height={200} />
-                        <Image src={MoreImages2} alt="" width={200} height={200} />
-                        <Image src={MoreImages3} alt="" width={200} height={200} />
-                        <Image src={MoreImages4} alt="" width={200} height={200} /> 
-                    </aside>
                     <div className="main--image">
-                        <Image src={MainImage} alt="" width={900}height={500} />
+                        <Image src={MainImage} alt="" width={1600} height={900} />
+                    </div>
+
+                    <div className="more--images">
+                        <Image src={MoreImages1} alt="" width={400} height={300} />
+                        <Image src={MoreImages2} alt="" width={400} height={300} />
+                        <Image src={MoreImages3} alt="" width={400} height={300} />
+                        <Image src={MoreImages4} alt="" width={400} height={300} />
                     </div>
 
                 </div>
