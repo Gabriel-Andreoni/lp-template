@@ -1,4 +1,3 @@
-import { Menu } from '@/app/components/Menu';
 import { Atop } from '@/app/components/AtopFont';
 import './hero.css';
 
