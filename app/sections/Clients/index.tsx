@@ -23,7 +23,7 @@ export function Clients() {
                 <ul className="clients--logos">
                     {clients.map((client) => (
                         <li key={client.id} className="client--logo">
-                            <Image src={client.src} alt={client.alt} width={300} height={110} />
+                            <Image src={client.src} alt={client.alt} width={350} height={110} />
                         </li>
                     ))}
                 </ul>

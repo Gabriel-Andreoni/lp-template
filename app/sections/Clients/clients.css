@@ -6,8 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background-color: #a52a2a;
 }
 
 
@@ -22,7 +20,7 @@
     .clients--title {
         font-size: 4em;
 
-        color: #ffffff;
+        color: #a52a2a;
     }
 
     .clients--title, .clients--title + p {
@@ -49,7 +47,7 @@
 
         display: flex;
         justify-content: center;
-        gap: 4em;
+        gap: 10em;
 
         .client--logo{
             width: 300px;
