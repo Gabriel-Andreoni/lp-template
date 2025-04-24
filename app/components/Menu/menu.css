@@ -9,6 +9,8 @@
     background-color: #ddd1bf96;
 
     z-index: 100000;
+
+    box-shadow: #d1c6b596 0px 25px 20px -20px;
     
     .menu--nav {
         width: 100%;
