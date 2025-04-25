@@ -14,14 +14,14 @@
         display: flex;
         justify-content: space-between;
 
-        & > h4 + p {
-            margin-bottom: 1em;
-        }
-
         .footer-content-left {
             display: flex;
             flex-direction: column;
             gap: 1em;
+
+            .footer-address {
+                font-weight: bold;
+            }
 
             .footer--menu-list {
                 width: fit-content;

@@ -6,10 +6,10 @@ export function Footer() {
             <div className="footer--content">
                 <div className="footer-content-left">
                     <h4>Nosso Endereço</h4>
-                    <p>Av Rebolças 499 - Jardim Monte Negro - SP</p>
+                    <p className="footer-address">Av Rebolças 499 - Jardim Monte Negro - SP</p>
 
                     <h4>Horário de Atendimento</h4>
-                    <p>Segunda à Sexta 07:30 às 12:30 - 13:30 às 17:30</p>
+                    <p className="footer-address">Segunda à Sexta 07:30 às 12:30 - 13:30 às 17:30</p>
 
                     <ul className="footer--menu-list">
                         <li className="menu-item">Playgrounds</li>
