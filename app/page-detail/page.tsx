@@ -6,6 +6,7 @@ import MoreImages2 from './images/more-images-2.jpg';
 import MoreImages3 from './images/more-images-3.jpg';
 import MoreImages4 from './images/more-images-4.jpg';
 import { Menu } from '../components/Menu';
+import { Footer } from '../sections/Footer';
 
 
 export default function PageDetail() {
@@ -36,6 +37,8 @@ export default function PageDetail() {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </section>
     );
 }
