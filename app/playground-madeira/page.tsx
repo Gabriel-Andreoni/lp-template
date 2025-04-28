@@ -32,7 +32,23 @@ export default function PlaygroundMadeira() {
 
                 </div>
             </main>
-
+            <div className="related-products">
+                <div className="related-products--container">
+                    <h2>Produtos Relacionados</h2>
+                    <div className="related-product--item">
+                        <h3>Produto 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    </div>
+                    <div className="related-product--item">
+                        <h3>Produto 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    </div>
+                    <div className="related-product--item">
+                        <h3>Produto 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
             <Footer />
         </>
     )
