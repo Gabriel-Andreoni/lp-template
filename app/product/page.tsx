@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import './page-detail.css';
+import './product.css';
 import MainImage from './images/main-image.jpg';
 import MoreImages1 from './images/more-images-1.jpg';
 import MoreImages2 from './images/more-images-2.jpg';

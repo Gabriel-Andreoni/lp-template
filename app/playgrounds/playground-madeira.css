@@ -220,7 +220,11 @@
         
                 font-family: inherit;
         
-                color: #E8DBC9;
+
+                & > a {
+                    text-decoration: none;
+                    color: #E8DBC9;
+                }
             }
         }
     }

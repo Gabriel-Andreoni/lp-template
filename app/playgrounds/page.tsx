@@ -1,12 +1,13 @@
 import { Menu } from "../components/Menu";
 import { Footer } from "../sections/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 import './playground-madeira.css';
 import SlideImage1 from './images/slide-image-1.jpg';
 import CardImage1 from '../sections/ProductList/img/card-1.jpg'
 
-export default function PlaygroundMadeira() {
+export default function Playgrounds() {
     return (
         <>
             <Menu />
@@ -43,7 +44,9 @@ export default function PlaygroundMadeira() {
                         <div className="product--item--body">
                             <h2>Playground de madeira</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
-                            <button>Saiba mais</button>
+                            <button>
+                                <Link href="/product">Saiba mais</Link>
+                            </button>
                         </div>
                     </li>
 
@@ -54,7 +57,7 @@ export default function PlaygroundMadeira() {
                         <div className="product--item--body">
                             <h2>Playground de madeira</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
-                            <button>Saiba mais</button>
+                            <button><Link href="/product">Saiba mais</Link></button>
                         </div>
                     </li>
 
@@ -65,7 +68,7 @@ export default function PlaygroundMadeira() {
                         <div className="product--item--body">
                             <h2>Playground de madeira</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
-                            <button>Saiba mais</button>
+                            <button><Link href="/product">Saiba mais</Link></button>
                         </div>
                     </li>
 
@@ -76,7 +79,7 @@ export default function PlaygroundMadeira() {
                         <div className="product--item--body">
                             <h2>Playground de madeira</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
-                            <button>Saiba mais</button>
+                            <button><Link href="/product">Saiba mais</Link></button>
                         </div>
                     </li>
                 </ul>

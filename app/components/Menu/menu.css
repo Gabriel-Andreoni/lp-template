@@ -32,6 +32,33 @@
                 font-weight: bold;
 
                 cursor: pointer;
+
+                & > a {
+                    text-decoration: none;
+                    color: #000000;
+
+                    position: relative;
+
+                    &::after {
+                        content: '';
+
+                        width: 50%;
+                        height: 2px;
+                       
+                        position: absolute;
+                        top: 110%;
+                        bottom: -5px;
+                        left: 0;
+
+                        background-color: #EA9D2B;
+
+                        transition: all 0.3s ease-in-out;
+                    }
+
+                    &:hover::after {
+                        width: 100%;
+                    }
+                }
             }
         }
     }
