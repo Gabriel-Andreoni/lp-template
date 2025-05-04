@@ -25,6 +25,8 @@
 
             .footer--menu-list {
                 width: fit-content;
+                
+                margin-top: 1em;
     
                 display: flex;
                 flex-direction: column;
@@ -36,6 +38,11 @@
                     font-weight: bold;
 
                     cursor: pointer;
+
+                    & > a {
+                        text-decoration: none;
+                        color: #000000;
+                    }
                 }
             }
         }

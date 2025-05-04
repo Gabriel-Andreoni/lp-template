@@ -1,4 +1,5 @@
 import './footer.css';
+import Link from 'next/link';
 
 export function Footer() {
     return (
@@ -12,9 +13,15 @@ export function Footer() {
                     <p className="footer-address">Segunda à Sexta 07:30 às 12:30 - 13:30 às 17:30</p>
 
                     <ul className="footer--menu-list">
-                        <li className="menu-item">Playgrounds</li>
-                        <li className="menu-item">Orçamento</li>
-                        <li className="menu-item">Contato</li>
+                        <li className="menu-item">
+                            <Link href="/playgrounds">Playgrounds</Link>
+                        </li>
+                        <li className="menu-item">
+                            <Link href="#">Orçamento</Link>
+                        </li>
+                        <li className="menu-item">
+                            <Link href="#">Contato</Link>
+                        </li>
                     </ul>
                 </div>
 
