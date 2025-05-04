@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import './playground-madeira.css';
 import SlideImage1 from './images/slide-image-1.jpg';
+import CardImage1 from '../sections/ProductList/img/card-1.jpg'
 
 export default function PlaygroundMadeira() {
     return (
@@ -33,21 +34,52 @@ export default function PlaygroundMadeira() {
                 </div>
             </main>
             <div className="related-products">
-                <div className="related-products--container">
-                    <h2>Produtos Relacionados</h2>
-                    <div className="related-product--item">
-                        <h3>Produto 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
-                    </div>
-                    <div className="related-product--item">
-                        <h3>Produto 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
-                    </div>
-                    <div className="related-product--item">
-                        <h3>Produto 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
-                    </div>
-                </div>
+                <ul className="related-products--content">
+                    <h2 className="related-products--title">Produtos Relacionados</h2>
+                    <li className="product--item">
+                        <div className="product--item--image">
+                            <Image src={CardImage1} alt="Imagem do primeiro card" />
+                        </div>
+                        <div className="product--item--body">
+                            <h2>Playground de madeira</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
+                            <button>Saiba mais</button>
+                        </div>
+                    </li>
+
+                    <li className="product--item">
+                        <div className="product--item--image">
+                            <Image src={CardImage1} alt="Imagem do primeiro card" />
+                        </div>
+                        <div className="product--item--body">
+                            <h2>Playground de madeira</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
+                            <button>Saiba mais</button>
+                        </div>
+                    </li>
+
+                    <li className="product--item">
+                        <div className="product--item--image">
+                            <Image src={CardImage1} alt="Imagem do primeiro card" />
+                        </div>
+                        <div className="product--item--body">
+                            <h2>Playground de madeira</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
+                            <button>Saiba mais</button>
+                        </div>
+                    </li>
+
+                    <li className="product--item">
+                        <div className="product--item--image">
+                            <Image src={CardImage1} alt="Imagem do primeiro card" />
+                        </div>
+                        <div className="product--item--body">
+                            <h2>Playground de madeira</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
+                            <button>Saiba mais</button>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <Footer />
         </>
