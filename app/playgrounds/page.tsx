@@ -3,7 +3,7 @@ import { Footer } from "../sections/Footer";
 import Image from "next/image";
 import Link from "next/link";
 
-import './playground-madeira.css';
+import './playgrounds.css';
 import SlideImage1 from './images/slide-image-1.jpg';
 import CardImage1 from '../sections/ProductList/img/card-1.jpg'
 

@@ -5,8 +5,10 @@ import MoreImages1 from './images/more-images-1.jpg';
 import MoreImages2 from './images/more-images-2.jpg';
 import MoreImages3 from './images/more-images-3.jpg';
 import MoreImages4 from './images/more-images-4.jpg';
+import CardImage1 from '../sections/ProductList/img/card-1.jpg'
 import { Menu } from '../components/Menu';
 import { Footer } from '../sections/Footer';
+import Link from 'next/link';
 
 
 export default function PageDetail() {
@@ -37,7 +39,56 @@ export default function PageDetail() {
                     </div>
                 </div>
             </div>
+            <div className="related-products">
+                <ul className="related-products--content">
+                    <h2 className="related-products--title">Produtos Relacionados</h2>
+                    <li className="product--item">
+                        <div className="product--item--image">
+                            <Image src={CardImage1} alt="Imagem do primeiro card" />
+                        </div>
+                        <div className="product--item--body">
+                            <h2>Playground de madeira</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
+                            <button>
+                                <Link href="/product">Saiba mais</Link>
+                            </button>
+                        </div>
+                    </li>
 
+                    <li className="product--item">
+                        <div className="product--item--image">
+                            <Image src={CardImage1} alt="Imagem do primeiro card" />
+                        </div>
+                        <div className="product--item--body">
+                            <h2>Playground de madeira</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
+                            <button><Link href="/product">Saiba mais</Link></button>
+                        </div>
+                    </li>
+
+                    <li className="product--item">
+                        <div className="product--item--image">
+                            <Image src={CardImage1} alt="Imagem do primeiro card" />
+                        </div>
+                        <div className="product--item--body">
+                            <h2>Playground de madeira</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
+                            <button><Link href="/product">Saiba mais</Link></button>
+                        </div>
+                    </li>
+
+                    <li className="product--item">
+                        <div className="product--item--image">
+                            <Image src={CardImage1} alt="Imagem do primeiro card" />
+                        </div>
+                        <div className="product--item--body">
+                            <h2>Playground de madeira</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
+                            <button><Link href="/product">Saiba mais</Link></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
             <Footer />
         </section>
     );
