@@ -36,7 +36,7 @@ export default function Playgrounds() {
             </main>
             <div className="related-products">
                 <ul className="related-products--content">
-                    <h2 className="related-products--title">Produtos Relacionados</h2>
+                    <h2 className="related-products--title">Playgrounds Ideais para o Seu Espaço</h2>
                     <li className="product--item">
                         <div className="product--item--image">
                             <Image src={CardImage1} alt="Imagem do primeiro card" />
