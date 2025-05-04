@@ -16,7 +16,7 @@ export function Clients() {
     return (
         <section className="clients--container">
             <div className="clients--header">
-                <h2 className={`clients--title ${Atop.className}`}>Nossos Clientes</h2>
+                <h2 className={`clients--title`}>Nossos Clientes</h2>
                 <p>Onde Nossos Playgrounds Fazem a Diferença.</p>
             </div>
             <div className="clients--list">

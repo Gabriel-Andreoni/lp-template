@@ -1,10 +1,9 @@
 import './about.css';
-import { Atop } from '@/app/components/AtopFont';
 
 export function About() {
     return (
         <section className="about--container">
-            <h2 className={`about--container--title ${Atop.className}`}>Sobre Nós</h2>
+            <h2 className={`about--container--title`}>Sobre Nós</h2>
             <div className="about--wrapper">
 
                 <div className="about--content">

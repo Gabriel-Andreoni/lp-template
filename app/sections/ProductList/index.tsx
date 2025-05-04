@@ -8,7 +8,7 @@ import CardImage3 from './img/card-3.jpg';
 export function ProductList() {
   return (
     <section className="products-list--container">
-      <h1 className={`products--title ${Atop.className}`}>O Playground <span>dos sonhos está aqui!</span></h1>
+      <h1 className={`products--title`}>O Playground <span>dos sonhos está aqui!</span></h1>
 
       <ul className="products-list--grid">
         <li className="product--item">

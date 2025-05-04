@@ -45,7 +45,9 @@
         .hero--content--title {
             width: 100%;
 
-            font-size: 6em;
+            margin-bottom: .1em;
+
+            font-size: 8em;
             text-align: center;
 
             color: #fff;

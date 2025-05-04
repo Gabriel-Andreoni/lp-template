@@ -8,14 +8,14 @@
 }
 
 .products--title {
-    padding: 1em;
+    padding: .5em;
 
     display: flex;
     flex-direction: column;
 
     text-align: center;
 
-    font-size: 4em;
+    font-size: 6em;
 
     text-wrap: balance;
 

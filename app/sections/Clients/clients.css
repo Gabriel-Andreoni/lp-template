@@ -18,7 +18,9 @@
     flex-direction: column;
 
     .clients--title {
-        font-size: 4em;
+        margin: .2em 0;
+        
+        font-size: 6em;
 
         color: #a52a2a;
     }
