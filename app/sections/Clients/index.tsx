@@ -1,5 +1,4 @@
 import './clients.css';
-import { Atop } from '@/app/components/AtopFont';
 import Image from 'next/image';
 
 import logo1 from './images/mv.png';
