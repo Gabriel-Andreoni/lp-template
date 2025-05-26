@@ -1,11 +1,12 @@
 import { Menu } from "../components/Menu";
 import { Footer } from "../sections/Footer";
+import { ProductCard } from "../components/ProductCard";
 import Image from "next/image";
-import Link from "next/link";
 
 import './playgrounds.css';
 import SlideImage1 from './images/slide-image-1.jpg';
 import CardImage1 from '../sections/ProductList/img/card-1.jpg'
+
 
 export default function Playgrounds() {
     return (
@@ -37,51 +38,30 @@ export default function Playgrounds() {
             <div className="related-products">
                 <ul className="related-products--content">
                     <h2 className="related-products--title">Playgrounds Ideais para o Seu Espaço</h2>
-                    <li className="product--item">
-                        <div className="product--item--image">
-                            <Image src={CardImage1} alt="Imagem do primeiro card" />
-                        </div>
-                        <div className="product--item--body">
-                            <h2>Playground de madeira</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
-                            <button>
-                                <Link href="/product">Saiba mais</Link>
-                            </button>
-                        </div>
-                    </li>
-
-                    <li className="product--item">
-                        <div className="product--item--image">
-                            <Image src={CardImage1} alt="Imagem do primeiro card" />
-                        </div>
-                        <div className="product--item--body">
-                            <h2>Playground de madeira</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
-                            <button><Link href="/product">Saiba mais</Link></button>
-                        </div>
-                    </li>
-
-                    <li className="product--item">
-                        <div className="product--item--image">
-                            <Image src={CardImage1} alt="Imagem do primeiro card" />
-                        </div>
-                        <div className="product--item--body">
-                            <h2>Playground de madeira</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
-                            <button><Link href="/product">Saiba mais</Link></button>
-                        </div>
-                    </li>
-
-                    <li className="product--item">
-                        <div className="product--item--image">
-                            <Image src={CardImage1} alt="Imagem do primeiro card" />
-                        </div>
-                        <div className="product--item--body">
-                            <h2>Playground de madeira</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa non rerum iusto esse perferendis aut velit consequatur laboriosam.</p>
-                            <button><Link href="/product">Saiba mais</Link></button>
-                        </div>
-                    </li>
+                    <ProductCard
+                        title="Playground Infantil"
+                        description="Um playground seguro e divertido para crianças de todas as idades."
+                        image={CardImage1}
+                        link="#"
+                    />
+                    <ProductCard
+                        title="Playground Infantil"
+                        description="Um playground seguro e divertido para crianças de todas as idades."
+                        image={CardImage1}
+                        link="#"
+                    />
+                    <ProductCard
+                        title="Playground Infantil"
+                        description="Um playground seguro e divertido para crianças de todas as idades."
+                        image={CardImage1}
+                        link="#"
+                    />
+                    <ProductCard
+                        title="Playground Infantil"
+                        description="Um playground seguro e divertido para crianças de todas as idades."
+                        image={CardImage1}
+                        link="#"
+                    />
                 </ul>
             </div>
             <Footer />
